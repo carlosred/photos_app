@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Photos App',
+      title: Constants.appName,
       theme: ThemeData(
         primaryColor: Constants.cardColor,
         cardColor: Constants.cardColor,
