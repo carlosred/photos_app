@@ -1,16 +1,48 @@
-# photo_project
+# Photos_App
 
-A new Flutter project.
+### Description
 
-## Getting Started
+This project is a Flutter app currently being developed using the Dart language and the VS Code tool. It features two lists of items, with each item represented as a card displaying an image and the corresponding text. The project follows Clean Architecture and state management using Riverpod, which is a common approach for Flutter apps. It also incorporates design patterns such as Repository, Singleton, and Dependency Injection. As seen in the code, the architecture is divided into three layers: data, domain, and presentation. Additionally, there are two extra folders: "core," which contains the app's navigation system and route configuration, and "utils," which includes helper classes like constants.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/carlosred/photos_app.git
+    cd photos_app
+    ```
+
+2. **Install Dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+### Running the App
+
+#### Android
+
+```bash
+flutter run -d android
+```
+
+
+### Usage Video
+
+
+
+
+https://github.com/carlosred/photos_app/assets/22422477/7441f6e2-9ccb-45f0-bbf8-625d2bb0b497
+
+
+### Test coverage 
+
+![imagen](https://github.com/carlosred/photos_app/assets/22422477/57297cc5-ddd2-41dd-a5ed-c3226fa8c198)
+
+
+
+
